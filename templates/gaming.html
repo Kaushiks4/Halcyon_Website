@@ -24,93 +24,127 @@
 		<link rel="icon" type="image/ico" href="../static/img/logo.png" />
 	</head>
 	<style media="screen">
-			.navbar {
-			opacity: 1;
-			transition: opacity 0.5s ease;
-			}
-			.navbar-hide {
-			pointer-events: none;
-			opacity: 0;
-			}
-			body {
-				background-image: url('../static/img/gaming.jpg');
-				background-size: 100%;
-			}
+		.navbar {
+		opacity: 1;
+		transition: opacity 0.5s ease;
+		}
+		.navbar-hide {
+		pointer-events: none;
+		opacity: 0;
+		}
+		body {
+			background-image: url('../static/img/gaming.jpg');
+			background-size: 100%;
+		}
 	</style>
 	<body>
 		<div id="up1">
-			<nav class="navbar navbar-expand-sm fixed-top" style="margin-top:6vw"role="navigation">
+			<nav class="navbar navbar-expand-sm fixed-top" style="margin-top:6vw" role="navigation">
 				<button
 							class="navbar-toggler"
 							data-toggle="collapse"
 							data-target=".navbar-collapse"
 							>
 							<span class="navbar-toggler-icon">
-								<i class="fas fa-bars" style="margin-left: -8px;color:#FFF;"></i>
+								<i class="fas fa-bars" style="margin-left: -8px;color:#fff;"></i>
 							</span>
 				</button>
 				<div class="collapse navbar-collapse " id="collapsibleNavbar">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" style="color:white;font-size:20px" href="index.html"><b>Home</b></a>
+							<a class="nav-link" style="color:white;font-size:2vw" href="index.html"><b>Home</b></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" style="color:white;font-size:20px" href="genres.html"><b>Genres</b></a>
+							<a class="nav-link" style="color:white;font-size:2vw" href="genres.html"><b>Genres</b></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" style="color:white;font-size:20px" href="schedules.html"><b>Schedules</b></a>
+							<a class="nav-link" style="color:white;font-size:2vw" href="schedules.html"><b>Schedules</b></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" style="color:white;font-size:20px" href="aboutus.html"><b>About Us</b></a>
+							<a class="nav-link" style="color:white;font-size:2vw" href="aboutus.html"><b>About Us</b></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" style="margin-right:2vw;color:white;font-size:20px" href="contact.html"><b>Contact Us</b></a>
+							<a class="nav-link" style="margin-right:2vw;color:white;font-size:2vw" href="contact.html"><b>Contact Us</b></a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 	</div>
-		<!-- Button trigger modal -->
+
 		<img class="img-responsive" style="margin-left:8vw" width="11%" height="auto" src="../static/img/logo strokes.png" alt="Halcyon">
-<div class="container">
-	<div class="row">
-		<div class="col">
-			<!-- NFS-->
-  <!-- Button to Open the Modal -->
-			<img src="../static/img/nfs.jpg" width="100%" height="100%" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter">
-		<br>
-  <!-- The Modal -->
-  	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    	<div class="modal-dialog">
-      	<div class="modal-content">
-        	<!-- Modal Header -->
-        	<div class="modal-header">
-          	<h4 class="modal-title">RULES</h4>
-          	<button type="button" class="close" data-dismiss="modal">&times;</button>
-        	</div>
-        <!-- Modal body -->
-        	<div class="modal-body">
-								<p style="font-size:1vw" > 4 Participants compete with each other in a circuit</p>
-        	</div>
-      	</div>
-    	</div>
-  	</div>
-	</div>
-	<div class="col">
-			<br>
-			<h1><a data-toggle="modal" data-target="#exampleModalCenter" style="margin-left:15vw;color:white;font-size:5vw">NFS</a></h1>
-	</div>
-</div>
-		<!--FIFA-->
-		<br><br>
-	<div class="row">
-		<div class="col">
+
+		<div class="container">
+  	<!-- Button to Open the Modal -->
+			<img src="../static/img/nfs.jpg" style="margin-left:2vw" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter">
+			<strong><a data-toggle="modal" data-target="#exampleModalCenter" style="font-family: fantasy;margin-left:10vw;color:white;font-size:4vw">NFS</a></strong>
+  	<!-- The Modal -->
+	  	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	    	<div class="modal-dialog">
+	      	<div class="modal-content">
+	        	<!-- Modal Header -->
+	        	<div class="modal-header">
+	          	<h4 class="modal-title">RULES</h4>
+	          	<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        	</div>
+	        <!-- Modal body -->
+	        	<div class="modal-body">
+									<p style="font-size:1vw" > 4 Participants compete with each other in a circuit</p>
+	        	</div>
+	      	</div>
+	    	</div>
+	  	</div>
 			<br><br><br>
-			<h1><a data-toggle="modal" data-target="#exampleModalCenter1" style="margin-left:10vw;color:white;font-size:5vw">FIFA</a></h1>
-		</div>
-		<div class="col">
-			<img src="../static/img/fifa.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter1">
+			<!--FIFA-->
+			<strong><a data-toggle="modal" data-target="#exampleModalCenter1" style="font-family: fantasy;margin-left:10vw;color:white;font-size:4vw">FIFA</a></strong>
+			<img style="margin-left:6vw;" src="../static/img/fifa.jpg" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter1">
+			<!-- Modal -->
 			<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">RULES</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<!-- Modal body -->
+						<div class="modal-body">
+								<p>
+									<ul style="font-size:1vw">
+										<li>Each Half of 4 minutes.</li>
+										<li> Individual event. (Knock Out)</li>
+									</ul></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br><br><br>
+		<!-- Counter Strike-->
+			<img style="margin-left:2vw" src="../static/img/cs.jpg" width="55%" height="auto" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter2">
+			<strong><a data-toggle="modal" data-target="#exampleModalCenter2" style="font-family: fantasy;margin-left:4vw;color:white;font-size:3vw">Counter Strike</a></strong>
+  	<!-- The Modal -->
+	  	<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	    	<div class="modal-dialog">
+	      	<div class="modal-content">
+	        	<!-- Modal Header -->
+	        	<div class="modal-header">
+	          	<h4 class="modal-title">RULES</h4>
+	          	<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        	</div>
+	        <!-- Modal body -->
+	        	<div class="modal-body">
+										<ul style="font-size:1vw">
+											<li>5 Membered team.</li>
+											<li>Official ESL ONE Gaming rules will be followed,Except for number of roun allotted.</li>
+	        	</div>
+	      	</div>
+	    	</div>
+	  	</div>
+			<br><br><br>
+		<!--ANTICHESS -->
+			<strong><a data-toggle="modal" data-target="#exampleModalCenter3" style="font-family: fantasy;margin-left:5vw;color:white;font-size:4vw">Anti-Chess</a></strong>
+			<img style="margin-left:3vw;" src="../static/img/antichess.jpg" width="55%" height="auto" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter3">
+		<!-- The Modal -->
+			<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<!-- Modal Header -->
@@ -122,141 +156,85 @@
 						<div class="modal-body">
 								<p>
 									<ul style="font-size:1vw">
-										<li>Each Half of 4 minutes.</li>
-										<li> Individual event. (Knock Out)</li>
+										<li>Casting is not allowed.</li>
+										<li>No Checkmate.</li>
+										<li>Each Piece has some points.</li>
+										<li>Time Limit: 5 minutes.</li>
+										<li>5 wrong moves lead to elimination.</li>
 									</ul></p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-		<br>
-		<!-- Counter Strike-->
-		<br><br>
-		<div class="row">
-			<div class="col">
-			<img src="../static/img/cs.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter2">
-			</div>
-			<div class="col">
-				<br><br><br><br>
-				<a data-toggle="modal" data-target="#exampleModalCenter2" style="margin-left:4vw;color:white;font-size:4vw">Counter Strike</a>
-			</div>
-		</div>
-		<br>
-  <!-- The Modal -->
-  	<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    	<div class="modal-dialog">
-      	<div class="modal-content">
-        	<!-- Modal Header -->
-        	<div class="modal-header">
-          	<h4 class="modal-title">RULES</h4>
-          	<button type="button" class="close" data-dismiss="modal">&times;</button>
-        	</div>
-        <!-- Modal body -->
-        	<div class="modal-body">
-									<ul style="font-size:1vw">
-										<li>5 Membered team.</li>
-										<li>Official ESL ONE Gaming rules will be followed,Except for number of roun allotted.</li>
-        	</div>
-      	</div>
-    	</div>
-  	</div>
-		<!--ANTICHESS -->
-		<div class="row">
-			<div class="col">
-				<br><br><br><br><br><br>
-				<a data-toggle="modal" data-target="#exampleModalCenter3" style="margin-left:4vw;color:white;font-size:4vw">Anti-Chess</a>
-			</div>
-			<div class="col">
-				<img src="../static/img/antichess.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter3">
-			</div>
-		</div>
-		<br>
-		<!-- The Modal -->
-		<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<!-- Modal Header -->
-					<div class="modal-header">
-						<h4 class="modal-title">RULES</h4>
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-					</div>
-			<!-- Modal body -->
-					<div class="modal-body">
-							<p>
-								<ul style="font-size:1vw">
-									<li>Casting is not allowed.</li>
-									<li>No Checkmate.</li>
-									<li>Each Piece has some points.</li>
-									<li>Time Limit: 5 minutes.</li>
-									<li>5 wrong moves lead to elimination.</li>
-								</ul></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+			<br><br><br>
+
 	<!-- footer -->
-	<div class="text-center p-4">
-		<!--Facebook-->
-			<a href="http://www.facebook.com/halcyon2019/" class="btn-floating btn-lg btn-fb" type="button" role="button">
-				<i class="fab fa-facebook-f"></i>
-			</a>
-			<!--Instagram-->
-			<a href="http://www.instagram.com/halcyon_official" class="btn-floating btn-lg btn-ins" type="button" role="button">
-				<i class="fab fa-instagram"></i>
-			</a>
-			<!--Youtube-->
-			<a href="https://www.youtube.com/channel/UC4YzLrCrvpSiceBk15w1y8A" class="btn-floating btn-lg btn-yt" type="button" role="button">
-				<i class="fab fa-youtube fa-sm mr-2"></i>
-			</a>
-		<p style="color:white">Copyright &copy; 1992-<span id="year"></span> HALCYON</p>
-	</div>
-	<script src="//www.powr.io/powr.js?external-type=html"></script>
-	<script
-		src="http://code.jquery.com/jquery-3.3.1.min.js"
-		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-		crossorigin="anonymous"
-	></script>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-		crossorigin="anonymous"
-	></script>
-	<script
-		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-		integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-		crossorigin="anonymous"
-	></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-	<script type="text/javascript">
-			$(window).scroll(function(e) {
-		      var scroll = $(window).scrollTop();
-		      if (scroll >= 150) {
-		      		$('.navbar').addClass("navbar-hide");
-		      } else {
-		      		$('.navbar').removeClass("navbar-hide");
-		      }
-		    });
-				$('#myModal').on('shown.bs.modal', function () {
-			  $('#myInput').trigger('focus')
-			});
-	</script>
-	<script>
-			$(document).ready(function(){
-			    function alignModal(){
-			        var modalDialog = $(this).find(".modal-dialog");
-			        /* Applying the top margin on modal dialog to align it vertically center */
-			        modalDialog.css("margin-top", Math.max(0, ($(window).height() - modalDialog.height()) / 2));
-			    }
-			    // Align modal when it is displayed
-			    $(".modal").on("shown.bs.modal", alignModal);
-			    // Align modal when user resize the window
-			    $(window).on("resize", function(){
-			        $(".modal:visible").each(alignModal);
+			<div class="text-center p-4">
+				<a href="http://www.facebook.com/halcyon2019/" class="btn-floating btn-lg btn-fb" type="button" role="button">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="http://www.instagram.com/halcyon_official" class="btn-floating btn-lg btn-ins" type="button" role="button">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://www.youtube.com/channel/UC4YzLrCrvpSiceBk15w1y8A" class="btn-floating btn-lg btn-yt" type="button" role="button">
+					<i class="fab fa-youtube fa-sm mr-2"></i>
+				</a>
+				<p style="color:white">Copyright &copy; 1992-<span id="year"></span> HALCYON</p>
+			</div>
+		<script src="//www.powr.io/powr.js?external-type=html"></script>
+		<script
+			src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+			integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+			integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+		<script type="text/javascript">
+				$(window).scroll(function(e) {
+			      var scroll = $(window).scrollTop();
+			      if (scroll >= 150) {
+			      		$('.navbar').addClass("navbar-hide");
+			      } else {
+			      		$('.navbar').removeClass("navbar-hide");
+			      }
 			    });
-			});
-</script>
-</body>
+					$('#myModal').on('shown.bs.modal', function () {
+				  $('#myInput').trigger('focus')
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+				    function alignModal(){
+				        var modalDialog = $(this).find(".modal-dialog");
+				        /* Applying the top margin on modal dialog to align it vertically center */
+				        modalDialog.css("margin-top", Math.max(0, ($(window).height() - modalDialog.height()) / 2));
+				    }
+				    // Align modal when it is displayed
+				    $(".modal").on("shown.bs.modal", alignModal);
+				    // Align modal when user resize the window
+				    $(window).on("resize", function(){
+				        $(".modal:visible").each(alignModal);
+				    });
+				});
+			</script>
+			<script>
+				// Get the current year for the copyright
+				$('#year').text(new Date().getFullYear());
+
+				// Lightbox Init
+				$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+					event.preventDefault();
+					$(this).ekkoLightbox();
+				});
+			</script>
+		</body>
 </html>

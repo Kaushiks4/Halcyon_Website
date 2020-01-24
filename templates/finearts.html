@@ -24,59 +24,61 @@
 		<link rel="icon" type="image/ico" href="../static/img/logo.png" />
 	</head>
 	<style media="screen">
-			.navbar {
-			opacity: 1;
-			transition: opacity 0.5s ease;
-			}
-			.navbar-hide {
-			pointer-events: none;
-			opacity: 0;
-			}
+		.navbar {
+		opacity: 1;
+		transition: opacity 0.5s ease;
+		}
+		.navbar-hide {
+		pointer-events: none;
+		opacity: 0;
+		}
+		body {
+			background: url('../static/img/fineartsbg.jpg');
+			background-size: 100%;
+		}
 	</style>
 	<body>
 		<div id="up1">
-			<nav class="navbar navbar-expand-sm fixed-top" style="margin-top:6vw"role="navigation">
+			<nav class="navbar navbar-expand-sm fixed-top" style="margin-top:6vw" role="navigation">
 				<button
-							class="navbar-toggler"
-							data-toggle="collapse"
-							data-target=".navbar-collapse"
-							>
-							<span class="navbar-toggler-icon">
-								<i class="fas fa-bars" style="margin-left: -8px;color:#000;"></i>
-							</span>
+					class="navbar-toggler"
+					data-toggle="collapse"
+					data-target=".navbar-collapse"
+					>
+					<span class="navbar-toggler-icon">
+						<i class="fas fa-bars" style="margin-left: -8px;color:#fff;"></i>
+					</span>
 				</button>
 				<div class="collapse navbar-collapse " id="collapsibleNavbar">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" style="color:black;font-size:20px" href="index.html"><b>Home</b></a>
+							<a class="nav-link" style="color:white;font-size:2vw" href="index.html"><b>Home</b></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" style="color:black;font-size:20px" href="genres.html"><b>Genres</b></a>
+							<a class="nav-link" style="color:white;font-size:2vw" href="genres.html"><b>Genres</b></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" style="color:black;font-size:20px" href="schedules.html"><b>Schedules</b></a>
+							<a class="nav-link" style="color:white;font-size:2vw" href="schedules.html"><b>Schedules</b></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" style="color:black;font-size:20px" href="aboutus.html"><b>About Us</b></a>
+							<a class="nav-link" style="color:white;font-size:2vw" href="aboutus.html"><b>About Us</b></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" style="margin-right:2vw;color:black;font-size:20px" href="contact.html"><b>Contact Us</b></a>
+							<a class="nav-link" style="margin-right:2vw;color:white;font-size:2vw" href="contact.html"><b>Contact Us</b></a>
 						</li>
 					</ul>
 				</div>
 			</nav>
-	</div>
-		<!-- Button trigger modal -->
-<div class="container">
-	<div class="row">
-		<div class="col">
+		</div>
+
+		<img class="img-responsive" style="margin-left:8vw" width="11%" height="auto" src="../static/img/logo strokes.png" alt="Halcyon">
+
+		<div class="container">
+			<br>
 			<!--Face painting-->
-  <!-- Button to Open the Modal -->
-		<div class="carousel item">
-			<img src="../static/img/fp.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter">
-	        <a type="button" data-toggle="modal" data-target="#exampleModalCenter" class="position-absolute" style="top:67%;left:42%;color:white;font-size:2vw">Face Painting</a>
-	    </div>
-		<br>
+		<img style="margin-left:2vw;" src="../static/img/fp.jpg" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter">
+		<strong><a data-toggle="modal" data-target="#exampleModalCenter" style="font-family: fantasy;margin-left: 6vw;color:white;font-size:3vw">Face Painting</a></strong>
+
   <!-- The Modal -->
   	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     	<div class="modal-dialog">
@@ -88,25 +90,22 @@
         	</div>
         <!-- Modal body -->
         	<div class="modal-body">
-									<ul style="font-size:1vw">
-										<li>Topic will be given on spot.</li>
-										<li>Paints and brushes will be provided (maximum 6
-										colours).</li>
-										<li>Provisions- Waste cloth/paper, Water, Plastic Cups.</li>
-										<li>Time limit: 1 hour</li>
-									</ul>
+						<ul style="font-size:1vw">
+							<li>Topic will be given on spot.</li>
+							<li>Paints and brushes will be provided (maximum 6
+							colours).</li>
+							<li>Provisions- Waste cloth/paper, Water, Plastic Cups.</li>
+							<li>Time limit: 1 hour</li>
+						</ul>
         	</div>
-      	</div>
-    	</div>
-  	</div>
-	</div>
-	<div class="col">
-		<!--Clay Modelling-->
-		<div class="carousel item">
-			<img src="../static/img/spellbee.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter1">
-			<a type="button" data-toggle="modal" data-target="#exampleModalCenter1" class="position-absolute" style="top:50%;left:28%;color:white;font-size:2vw">Clay Modelling</a>
+				</div>
+			</div>
 		</div>
-		<br>
+		<br><br><br>
+
+		<!--Clay Modelling-->
+		<strong><a data-toggle="modal" data-target="#exampleModalCenter1" style="font-family: fantasy;margin-left: 2vw;color:white;font-size:3vw">Clay Modelling</a></strong>
+		<img style="margin-left:6vw" src="../static/img/cm.jpg" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter1">
 		<!-- The Modal -->
 		<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			<div class="modal-dialog">
@@ -131,16 +130,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-		<!-- 20Q -->
-		<div class="row">
-			<div class="col">
-		<div class="carousel item">
-			<img src="../static/img/lit.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter2">
-	        <a type="button" data-toggle="modal" data-target="#exampleModalCenter2" class="position-absolute" style="top:50%;left:42%;color:white;font-size:2vw">20Q</a>
-	    </div>
-		<br>
+		<br><br><br>
+
+		<!-- collage -->
+		<img style="margin-left:2vw" src="../static/img/collage.jpg" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter2">
+		<strong><a data-toggle="modal" data-target="#exampleModalCenter2" style="font-family: fantasy;margin-left: 10vw;color:white;font-size:2vw">COLLAGE</a></strong>
+
   <!-- The Modal -->
   	<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     	<div class="modal-dialog">
@@ -152,51 +147,27 @@
         	</div>
         <!-- Modal body -->
         	<div class="modal-body">
-									<strong style="font-size:1vw">PRELIMS: </strong> <br />
-									<ul style="font-size:1vw">
-										<li>The team members will be separated in 2 different rooms
-										and will be given a list of 20 items and a blank sheet of
-										paper.</li>
-										<li>The participants will have to write 3 clues for each of
-										the items in their sheet and these clues shall be single
-										word and proper nouns are NOT allowed. Time allotted for
-										this is 20 min.</li>
-										<li>After this, sheets are exchanged with their respective
-										team mates, who then will have 10 minutes to guess the
-										answers based on the clues given.</li>
-										<li>They are allowed 3 guesses for every question.</li>
-										<li>Violation of the above rules will lead to
-										disqualification.</li>
-										<li>Decision of the JUDGES is final and binding.</li>
-										<br />
-									</ul>
-										<strong style="font-size:1vw">FINALS:</strong><br />
-										<ul style="font-size:1vw">
-											<li>Both the members of the team play this round together.</li>
-											<li>Participants have to choose a category and a topic is
-										given to them at random from the chosen category.</li>
-											<li>One member of the team knows the topic while the other
-										tries to guess it by asking a maximum of 20 questions.</li>
-											<li>None of the questions can be asked directed towards any
-										name or any part of the topic specifically.</li>
-											<li>The time limit for asking questions and guessing the topic
-										is 4 minute.</li>
-											<li>Violation of the above rules will lead to
-										disqualification.</li>
-											<li>Decision of the JUDGES is final and binding.</li>
-									</ul>
+						<strong style="font-size:1vw">PRELIMS: </strong> <br />
+						<ul style="font-size:1vw">
+							<li>2 participants per team.</li>
+							<li>Duration: 1 hour 30 minutes.</li>
+							<li>The topic will be given on the spot.</li>
+							<li>Only chart paper and glue will be provided per team.</li>
+							<li>Scissors and burning of papers prohibited.</li>
+							<li>No other item will be provided.</li>
+							<li>Participants will not be allowed to leave the hall during
+										the event.</li>
+						</ul>
         	</div>
       	</div>
     	</div>
   	</div>
-	</div>
-		<!-- DC-->
-		<div class="col">
-		<div class="carousel item">
-			<img src="../static/img/lit.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter3">
-			<a type="button" data-toggle="modal" data-target="#exampleModalCenter3" class="position-absolute" style="top:50%;left:22%;color:white;font-size:2vw">	DUMB CHARADES</a>
-		</div>
-		<br>
+		<br><br><br>
+
+		<!-- INSTALLATION -->
+		<strong><a data-toggle="modal" data-target="#exampleModalCenter3" style="font-family: fantasy;margin-left: 2vw;color:white;font-size:4vw">INSTALLATION</a></strong>
+		<img style="margin-left:6vw" src="../static/img/instal.jpg" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter3">
+
 		<!-- The Modal -->
 		<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			<div class="modal-dialog">
@@ -210,33 +181,26 @@
 					<div class="modal-body">
 							<p>
 								<ul style="font-size:1vw">
-									<li>3 teams per college.<br>
-									3 members per team.</li>
-									<li>Each member of the team needs to enact at least once in a
-										round.</li>
-									<li>General DC rules apply, for e.g.: no lettering, no
-										phonetics (Phonetics can be used in certain rounds only)
-										etc.</li>
-									<li>The top teams will qualify for the finals depending upon
-										the time constraints and no. of participants.(Specifications
-										of various rounds will be announced at the time of the
-										event).</li>
-									<li>The decision of the DC master is final.</li>
+									<li>3 members per team.</li>
+									<li>Theme will be provided 2 hrs prior to the event.</li>
+									<li>No accessories will be provided.</li>
+									<li>Damage to college property will attract heavy fine and
+										disqualification.</li>
+									<li>Only waste materials to be used.</li>
+									<li>Use of transportation to find material is not allowed.</li>
+									<li>Art must be explained.</li>
+									<li>Duration of the event: 1 hr.</li>
 								</ul></p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-		<!-- DEBATE -->
-		<div class="row">
-			<div class="col">
-		<!-- Button to Open the Modal -->
-		<div class="carousel item">
-			<img src="../static/img/lit.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter4">
-					<a type="button" data-toggle="modal" data-target="#exampleModalCenter4" class="position-absolute" style="top:50%;left:32%;color:white;font-size:2vw">DEBATE</a>
-			</div>
+		<br><br><br>
+
+		<!-- 70MM -->
+		<img style="margin-left:2vw" src="../static/img/70mm.jpg" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter4">
+		<strong><a data-toggle="modal" data-target="#exampleModalCenter4" style="font-family: fantasy;margin-left: 10vw;color:white;font-size:4vw">70MM</a></strong>
+
 			<!-- The Modal -->
 		<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     	<div class="modal-dialog">
@@ -250,31 +214,24 @@
         	<div class="modal-body">
 									<strong style="font-size:1vw">PRELIMS: </strong> <br />
 									<ul style="font-size:1vw">
-										<li>3 teams per college with 2 members each.</li>
-										<li>The topic for the debate will be announced 24 hours prior
+										<li>3 Participants per team.</li>
+										<li>Only cam video and flash animations are allowed.</li>
+										<li>Compiled video/animations should be provided in CDs (.avi,
+										.MPEG, .flv), USB portable media storage device.</li>
+										<li>Downloaded videos are not allowed.</li>
+										<li>Duration of the videos should be maximum 3 mins.</li>
+										<li>The topic will be announced on the website 48 hours prior
 										to the event.</li>
-										<li>One participant speaks for the topic and one against.</li>
-										<li>Each participant is given max time of 5 min.</li>
-										<li>Judging will be based on the overall team performance.</li>
-										<li>Usage of abusive language or comments made against any
-										caste, creed, sex or religion is grounded for
-										disqualification.</li>
-										<li>The participants will be judged on various aspects such as
-										depth of speech, relevance to the topic and knowledge of the
-										topic.</li>
-										<li>Decision of the JUDGES is final and binding.</li>
         	</div>
       	</div>
     	</div>
   	</div>
-	</div>
-	<div class="col">
-		<!-- Creative Writing -->
-		<div class="carousel item">
-			<img src="../static/img/lit.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter5">
-			<a type="button" data-toggle="modal" data-target="#exampleModalCenter5" class="position-absolute" style="top:50%;left:17%;color:white;font-size:2vw">CREATIVE WRITING</a>
-		</div>
-		<br>
+		<br><br><br>
+
+		<!-- Creative PHOTOGRAPY -->
+		<strong><a data-toggle="modal" data-target="#exampleModalCenter5" style="font-family: fantasy;margin-left: 2vw;color:white;font-size:2vw">CREATIVE PHOTOGRAPY</a></strong>
+		<img style="margin-left:1vw" src="../static/img/cphoto.jpg" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter5">
+
 		<!-- The Modal -->
 		<div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			<div class="modal-dialog">
@@ -288,25 +245,27 @@
 					<div class="modal-body">
 							<p>
 								<ul style="font-size:1vw">
-									<li>Time limit: 75 min.</li>
-									<li>Word limit: 1000 words.</li>
-									<li>Subject: Topic will be given on the spot.</li>
-									<li>Decision of the judges will be final.</li>
+									<li>Individual event.</li>
+									<li>Only cam pictures should be produced in CDs
+										(.jpg,.jpeg),USB portable media storage device.</li>
+									<li>Downloaded photographs are not allowed.</li>
+									<li>The topic will be announced on the website 48 hours prior
+										to the event.</li>
+									<li>The participants can produce only one photograph at the
+										time of submission.</li>
+									<li>Editing of photo is allowed. </li>
 								</ul></p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-		<!-- BFT -->
-		<div class="row">
-			<div class="col">
-		<!-- Button to Open the Modal -->
-		<div class="carousel item">
-			<img src="../static/img/lit.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter6">
-					<a type="button" data-toggle="modal" data-target="#exampleModalCenter6" class="position-absolute" style="top:50%;left:42%;color:white;font-size:2vw">BFT</a>
-			</div>
+		<br><br><br>
+
+		<!-- Pencil Sketch -->
+
+		<img style="margin-left:1vw" src="../static/img/ps.jpg" width="55%" height="auto" class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter6" >
+		<strong><a data-toggle="modal" data-target="#exampleModalCenter6" style="font-family: fantasy;margin-left: 2vw;color:white;font-size:3vw">PENCIL SKETCH</a></strong>
+
 			<!-- The Modal -->
 		<div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			<div class="modal-dialog">
@@ -319,96 +278,35 @@
 				<!-- Modal body -->
 					<div class="modal-body">
 									<ul style="font-size:1vw">
-										<li>Text of 160 characters will be read out to the blind
-										folded participants, who have to type it in their own
-										phones.</li>
-										<li>Participants with most accurate text wins.</li>
-										<li>T9 or predictive text is allowed.</li>
-										<li>No restriction on phone used. </li>
+										<li>Individual event.</li>
+										<li>Duration:  45 minutes.</li>
+										<li>The topic will be given on the spot.</li>
+										<li>Only chart paper and stationeries will be provided.</li>
+										<li>Scissors and burning of papers prohibited.</li>
+										<li>No other item will be provided.</li>
+										<li>Participants will not be allowed to leave the hall during
+										the event.</li>
 									</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+		<br><br><br>
+
 	</div>
-	<div class="col">
-		<div class="carousel item">
-			<img src="../static/img/lit.jpg" width="100%" height="100%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter7">
-					<a type="button" data-toggle="modal" data-target="#exampleModalCenter7" class="position-absolute" style="top:50%;left:22%;color:white;font-size:2vw">RADIO-ACTIVE</a>
-			</div>
-			<!-- The Modal -->
-		<div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<!-- Modal Header -->
-					<div class="modal-header">
-						<h4 class="modal-title">RULES</h4>
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-					</div>
-				<!-- Modal body -->
-					<div class="modal-body">
-							<strong style="font-size:1vw">Prelims</strong>
-									<ul style="font-size:1vw">
-										<li>2 members per team.</li>
-										<li>Participants will have to speak for 4 minutes as a radio jockey.</li>
-										<li>Topic will be given on the spot and preparation time will be given.</li>
-										<li>Further details shall be conveyed to participants later.</li>
-									</ul>
-							<strong style="font-size:1vw">Finals</strong>
-									<ul style="font-size:1vw">
-										<li>Participants shall be asked to speak for 4 minutes as a radio jockey in between 2 audio tracks.</li>
-										<li>These tracks shall be given to the participants for a brief period just before their performance.</li>
-									</ul>
-							<strong style="font-size:1vw">General Rules</strong>
-									<ul style="font-size:1vw">
-										<li>The medium of communication should be English.</li>
-										<li>The decision of the judges will be final and binding.</li>
-									</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-	<!-- Poetry Slam -->
 	<br>
-<div class="carousel item">
-	<img src="../static/img/lit.jpg" style="margin-left:30%" width="50%" height="50%" class="img-thumbnail position-relative" data-toggle="modal" data-target="#exampleModalCenter8">
-			<a type="button" data-toggle="modal" data-target="#exampleModalCenter8" class="position-absolute" style="top:50%;left:42%;color:white;font-size:2vw">POETRY-SLAM</a>
+	<div class="text-center p-4">
+		<a href="http://www.facebook.com/halcyon2019/" class="btn-floating btn-lg btn-fb" type="button" role="button">
+			<i class="fab fa-facebook-f"></i>
+		</a>
+		<a href="http://www.instagram.com/halcyon_official" class="btn-floating btn-lg btn-ins" type="button" role="button">
+			<i class="fab fa-instagram"></i>
+		</a>
+		<a href="https://www.youtube.com/channel/UC4YzLrCrvpSiceBk15w1y8A" class="btn-floating btn-lg btn-yt" type="button" role="button">
+			<i class="fab fa-youtube fa-sm mr-2"></i>
+		</a>
+		<strong><p style="color:white">Copyright &copy; 1992-<span id="year"></span> HALCYON</p></strong>
 	</div>
-	<!-- The Modal -->
-<div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<!-- Modal Header -->
-			<div class="modal-header">
-				<h4 class="modal-title">RULES</h4>
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-		<!-- Modal body -->
-			<div class="modal-body">
-					<strong style="font-size:1vw">Prelims</strong>
-							<ul style="font-size:1vw">
-								<li>Open Event.</li>
-								<li>Language : English </li>
-								<li>Subject :  Word(s) or a picture(s) will be provided.</li>
-								<li>Each participant has to portray his/her poem based on the given subject.</li>
-								<li>Poems can be of any style.</li>
-								<li>The work of each poet has to be original and no plagiarism shall be accepted.</li>
-								<li>No musical instruments or pre-recorded music can be used.</li>
-								<li>Time Limit:
-								 		Preparation- 20minutes & Recitation- 5mins</li>
-								<li>Judge’s decision shall be final and binding.</li>
-							</ul>
-					<strong style="font-size:1vw">Five Minute Rule:</strong>
-							<p style="font-size:1vw">The performer is allowed to have a 10 second grace period. After 10seconds. 0.5 points are deducted from the overall score for every part of 10seconds overtime.</p>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-
-
 
 	<script src="//www.powr.io/powr.js?external-type=html"></script>
 	<script
@@ -455,5 +353,15 @@
 			    });
 			});
 </script>
+<script>
+			// Get the current year for the copyright
+			$('#year').text(new Date().getFullYear());
+
+			// Lightbox Init
+			$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+				event.preventDefault();
+				$(this).ekkoLightbox();
+			});
+		</script>
 </body>
 </html>

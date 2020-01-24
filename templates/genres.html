@@ -35,20 +35,21 @@
 		opacity: 0;
 		}
 		body {
-			background-color: black;
+			background-image: url('../static/img/genres.jpg');
+			background-size: 100%;
 		}
 	</style>
 	<body>
 		<div id="up1">
 			<nav class="navbar navbar-expand-sm fixed-top" style="margin-top:6vw"role="navigation">
 				<button
-							class="navbar-toggler"
-							data-toggle="collapse"
-							data-target=".navbar-collapse"
-							>
-							<span class="navbar-toggler-icon">
-								<i class="fas fa-bars" style="margin-left: -8px;color:#000;"></i>
-							</span>
+					class="navbar-toggler"
+					data-toggle="collapse"
+					data-target=".navbar-collapse"
+					>
+					<span class="navbar-toggler-icon">
+						<i class="fas fa-bars" style="margin-left: -8px;color:#fff;"></i>
+					</span>
 				</button>
 				<div class="collapse navbar-collapse " id="collapsibleNavbar">
 					<ul class="navbar-nav ml-auto">
@@ -70,72 +71,86 @@
 					</ul>
 				</div>
 			</nav>
-	</div>
-	<img class="img-responsive" style="margin-left:8vw" width="11%" height="auto" src="../static/img/logo strokes.png" alt="Halcyon">
-		<a style="color:#e6e8fa; margin-left:20%; font-size:4vw;" href="gaming.html"> GAMING </a>
-		<img class="ml-2 img-thumbnail" src="../static/img/finearts.jpg" width="35%" height="35%">
-		<br><br><br>
-		<img style="margin-left:13%;" class="mr-5 img-thumbnail" src="../static/img/finearts.jpg" width="35%" height="35%">
-		<a style="color:#e6e8fa; margin-left:1%; font-size:4vw;" href="dance.html">DANCE</a>
-		<br><br><br>
-		<a style="color:#e6e8fa; margin:20%; font-size:4vw;" href="theatre.html"> THEATRE </a>
-		<img class="ml-2 img-thumbnail" src="../static/img/theatre.jpg" width="35%" height="35%">
-		<br><br><br>
-		<img style="margin-left:13%;" class="mr-5 img-thumbnail" src="../static/img/lit.jpg" width="35%" height="35%">
-		<a style="color:#e6e8fa; margin-left:1%; font-size:4vw;" href="literary.html"> LITERARY </a>
-		<br><br><br>
-		<a style="color:#e6e8fa; margin:20%; font-size:4vw;" href="music.html"> MUSIC </a>
-		<img class="ml-2 img-thumbnail" src="../static/img/music.jpg" width="35%" height="35%">
-		<br><br><br>
-		<img style="margin-left:13%;" class="mr-5 img-thumbnail" src="../static/img/finearts.jpg" width="35%" height="35%">
-		<a style="color:#e6e8fa; margin-left:1%; font-size:4vw;" href="literary.html"> FINEARTS </a>
-		<br><br><br><br><br>
-	</div>
-</div>
-<!-- FOOTER -->
-<div class="text-center p-4">
-	<!--Facebook-->
-		<a href="http://www.facebook.com/halcyon2019/" class="btn-floating btn-lg btn-fb" type="button" role="button">
-			<i class="fab fa-facebook-f"></i>
-		</a>
-		<!--Instagram-->
-		<a href="http://www.instagram.com/halcyon_official" class="btn-floating btn-lg btn-ins" type="button" role="button">
-			<i class="fab fa-instagram"></i>
-		</a>
-		<!--Youtube-->
-		<a href="https://www.youtube.com/channel/UC4YzLrCrvpSiceBk15w1y8A" class="btn-floating btn-lg btn-yt" type="button" role="button">
-			<i class="fab fa-youtube fa-sm mr-2"></i>
-		</a>
-	<p style="color:white">Copyright &copy; 1992-<span id="year"></span> HALCYON</p>
-</div>
-	<script src="//www.powr.io/powr.js?external-type=html"></script>
-	<script
-		src="http://code.jquery.com/jquery-3.3.1.min.js"
-		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-		crossorigin="anonymous"
-	></script>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-		crossorigin="anonymous"
-	></script>
-	<script
-		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-		integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-		crossorigin="anonymous"
-	></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-	<script type="text/javascript">
-	$(window).scroll(function(e) {
-		// add/remove class to navbar when scrolling to hide/show
-		var scroll = $(window).scrollTop();
-		if (scroll >= 150) {
-				$('.navbar').addClass("navbar-hide");
-		} else {
-				$('.navbar').removeClass("navbar-hide");
-		}
+		</div>
 
-		});
-	</script>
-</body>
+		<img class="img-responsive" style="margin-left:8vw" width="11%" height="auto" src="../static/img/logo strokes.png" alt="Halcyon">
+
+		<!-- Genres -->
+		<div class="container">
+			<strong><a style="font-family: fantasy;margin-left:3vw; color:#e6e8fa; font-size:4vw;" href="gaming.html"> GAMING </a></strong>
+			<img style="margin-left:8vw;" class="img-thumbnail" src="../static/img/gaming.jpg" width="55%" height="auto">
+			<br><br><br><br>
+			<img style="margin-left:2vw;" class="img-thumbnail" src="../static/img/dance.jpg" width="55%" height="auto">
+			<strong><a style="font-family: fantasy;color:#e6e8fa; margin-left:10vw; font-size:4vw;" href="dance.html">DANCE</a></strong>
+			<br><br><br><br>
+			<strong><a style="font-family: fantasy;color:#e6e8fa; margin-left:3vw; font-size:4vw;" href="theatre.html"> THEATRE </a></strong>
+			<img style="margin-left:4vw;" class="img-thumbnail" src="../static/img/theatre.jpg" width="55%" height="auto">
+			<br><br><br><br>
+			<img style="margin-left:2vw;" class="img-thumbnail" src="../static/img/lit.jpg" width="55%" height="auto">
+			<strong><a style="font-family: fantasy;color:#e6e8fa; margin-left:5vw; font-size:4vw;" href="literary.html"> LITERARY </a></strong>
+			<br><br><br><br>
+			<strong><a style="font-family: fantasy;color:#e6e8fa; margin-left:3vw; font-size:4vw;" href="music.html"> MUSIC </a></strong>
+			<img style="margin-left:10vw;" class="img-thumbnail" src="../static/img/music.jpg" width="55%" height="auto">
+			<br><br><br><br>
+			<img style="margin-left:2vw;" class="img-thumbnail" src="../static/img/finearts.jpg" width="55%" height="auto">
+			<strong><a style="font-family: fantasy;color:#e6e8fa; margin-left:5vw; font-size:4vw;" href="finearts.html"> FINEARTS </a></strong>
+			<br><br><br><br>
+			<strong><a style="font-family: fantasy;color:#e6e8fa; margin-left:2vw; font-size:4vw;" href="informal.html"> INFORMAL </a></strong>
+			<img style="margin-left:4vw;" class="img-thumbnail" src="../static/img/informal.jpg" width="55%" height="auto">
+			<br><br><br><br><br>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="text-center p-4">
+			<a href="http://www.facebook.com/halcyon2019/" class="btn-floating btn-lg btn-fb" type="button" role="button">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+			<a href="http://www.instagram.com/halcyon_official" class="btn-floating btn-lg btn-ins" type="button" role="button">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<a href="https://www.youtube.com/channel/UC4YzLrCrvpSiceBk15w1y8A" class="btn-floating btn-lg btn-yt" type="button" role="button">
+				<i class="fab fa-youtube fa-sm mr-2"></i>
+			</a>
+			<p style="color:white">Copyright &copy; 1992-<span id="year"></span> HALCYON</p>
+		</div>
+		<script src="//www.powr.io/powr.js?external-type=html"></script>
+		<script
+			src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+			integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+			integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+		<script type="text/javascript">
+		$(window).scroll(function(e) {
+			// add/remove class to navbar when scrolling to hide/show
+			var scroll = $(window).scrollTop();
+			if (scroll >= 150) {
+					$('.navbar').addClass("navbar-hide");
+			} else {
+					$('.navbar').removeClass("navbar-hide");
+			}
+
+			});
+		</script>
+		<script>
+				// Get the current year for the copyright
+				$('#year').text(new Date().getFullYear());
+
+				// Lightbox Init
+				$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+					event.preventDefault();
+					$(this).ekkoLightbox();
+				});
+		</script>
+	</body>
 </html>
